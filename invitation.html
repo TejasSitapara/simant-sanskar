@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>સીમંત સંસ્કાર | Parth & Aneri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Gujarati:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="invitation.css" />
+  
+  <style>
+    .scroll-down-btn {
+      display: block;
+      margin: 2rem auto 0 auto;
+      background: rgb(37, 29, 88);
+      color: #ffffff;
+      border: 2px solid #ffffff;
+      padding: 10px 20px;
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      border-radius: 50px;
+      cursor: pointer;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease;
+      animation: bounce 2s infinite;
+    }
+
+    .scroll-down-btn:hover {
+      background: #ffffff;
+      color: rgb(37, 29, 88);
+      transform: scale(1.05);
+    }
+
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-10px);
+      }
+      60% {
+        transform: translateY(-5px);
+      }
+    }
+  </style>
+</head>
+<body class="invite-page">
+
+  <div class="invite-container">
+
+    <header class="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="hero__stars" aria-hidden="true">
+        <span class="hero__star hero__star--1">✦</span>
+        <span class="hero__star hero__star--2">✦</span>
+        <span class="hero__star hero__star--3">✦</span>
+        <span class="hero__star hero__star--4">✦</span>
+      </div>
+
+      <div class="hero__content">
+        <p>
+          પ્રથમ માતૃત્વ પ્રાપ્તિની પ્રતીતીનો ઉત્સવ એટલે
+        </p>
+        <h1 class="hero__title">સીમંત સંસ્કાર</h1>
+
+        <p class="hero__host" style="font-size: 16px; color: rgb(37, 29, 88);">
+          સહર્ષ ખુશાલી સાથે જણાવવાનું કે અમારા કુળદેવી શ્રી અંબામાંની અસીમ કૃપાથી અ.સૌ. સંગીતાબેન તથા શ્રી જીતેન્દ્રભાઇ ત્રિભોવનદાસ સીતાપરા ના સુપુત્ર
+
+          ચિ. પાર્થ નાં ધર્મપત્ની <br>
+        <p style="font-size: 28px;">અ.સૌ. અનેરી<br /> </p>
+
+        <p class="hero__host" style="font-size: 16px; color: rgb(37, 29, 88);">ના સીમંત વિધીનું શુભ મુહૂર્ત સવંત ૨૦૮૨ ના આસો સુદ એકમ ને રવિવારે તા. ૧૧-૧૦-૨૦૨૬ ના સવારે ૯-૦૦ કલાકે રાખેલ છે તો આ શુભ પ્રસંગે અમારી પુત્રવધુને આશીર્વાદ આપવા પધારશોજી.
+        </p>
+        
+        <button type="button" class="scroll-down-btn" onclick="scrollToNextSection()">
+          આગળ જુઓ ↓
+        </button>
+      </div>
+    </header>
+
+    <section id="next-section" class="section reveal">
+      <div class="section-card">
+        <h1 class="poll-title">કાનો કે ગોપી?</h1>
+        <h4 class="poll-title">બાળક અનુમાનની મનોરંજક રમત</h4>
+         <p style="text-align: center;">
+          તમારા મતે તેજસ અને ક્રિષ્નાના ઘરે કોનું આગમન થશે? નીચે ક્લીક કરી તમારો મત આપો:
+        </p>
+        <div class="poll-cards">
+          <button type="button" class="poll-card poll-card--boy" data-vote="boy">
+            <span class="poll-card__icon">👶</span>
+            <span class="poll-card__label">કાનો</span>
+          </button>
+          <button type="button" class="poll-card poll-card--girl" data-vote="girl">
+            <span class="poll-card__icon">👧</span>
+            <span class="poll-card__label">ગોપી</span>
+          </button>
+        </div>
+        <p class="poll-result" id="poll-result"></p>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <h2 class="section-heading">|| શુભ પ્રસંગો ||</h2>
+      <div class="section-card">
+
+        <div class="event-block">
+          <div class="event-block__header">
+             <h3 class="event-block__title" > &nbsp; &nbsp; &nbsp;&nbsp; સીમંત સંસ્કાર</h3>
+          </div>
+          <p style="text-align: center; font-size: 0.9rem">
+            “પ્રથમ માતૃત્વ પ્રાપ્તિની પ્રતીતીનો ઉત્સવ એટલે સીમંત સંસ્કાર, જેમાં આપ સહકુટુંબ પધારી અમારા આનંદમાં અભિવૃદ્ધિ કરશોજી.”
+          </p>
+          <br> <br>
+          <div class="event-detail">
+            <span class="event-detail__label">તારીખ :</span>
+            <span class="event-detail__value">ઓકટોબર ૧૧, ૨૦૨૬ (રવિવાર)</span>
+          </div>
+          <div class="event-detail">
+            <span class="event-detail__label">સમય :</span>
+            <span class="event-detail__value">સવારે ૦૯:૦૦ વાગ્યે</span>
+          </div>
+          <div class="event-detail">
+            <span class="event-detail__label">સ્થળ :</span>
+            <span class="event-detail__value">દ્વારકેશનગર ૪, અલ્ટ્રા વિઝન સ્કૂલની પાછળ, &nbsp; &nbsp; &nbsp; ૮૦ ફૂટ રોડ, સુરેન્દ્રનગર-૩૬૩૦૦૧ </span>
+          </div>
+          <div class="event-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.9065017966973!2d71.64245767787618!3d22.731716327114864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395941a00c636039%3A0x5d1a81e3c89dccf2!2sDWARKWSHNAGAR-4!5e0!3m2!1sen!2sin!4v1790870590453!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            <a class="event-map__link" href="https://maps.app.goo.gl/3oYKGAXFbBjnZBTz8" target="_blank" rel="noopener">
+              View on Map ↗
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="quote-card">
+        <div class="quote-card__shubh">🕊️</div>
+        <p class="quote-card__text">
+          પારણિયે પોઢવા આવી રહ્યું છે એક વ્હાલું નૂર,<br>
+          જેના આગમનથી ઘરના દુઃખ થશે બધા દૂર.<br>
+          માતા બનવાના આ પવિત્ર અવસરે,<br>
+          આપના આશીર્વાદ આપવા પધારજો આંગણે.
+        </p>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="inviter-card">
+        <h2 class="inviter-card__title">નિમંત્રક</h2>
+        <div class="inviter-card__names">
+          <h3> શ્રી જીતેન્દ્રભાઇ ત્રિભોવનદાસ સીતાપરા </h3>
+          મો. ૯૯૨૫૩૩૯૨૫૩, ૯૯૭૯૨૧૫૫૮૧ 
+        </div>
+      </div>
+    </section>
+
+    <footer class="invite-footer">
+      <div class="invite-footer__pattern" aria-hidden="true"></div>
+      <p style="font-family: var(--font-gujarati); font-size: 0.95rem; color: rgba(255, 255, 255, 0.8); line-height: 1.85; margin-bottom: 1rem; font-style: italic;">"ઈશ્વરની કૃપા અને આપ સૌના આશીર્વાદ સાથે<br>નવી ઉષા ઊગશે આ ઘરે."</p>
+      <p class="invite-footer__names">પાર્થ & અનેરી</p>
+      <p class="invite-footer__tagline">આપનું હાર્દિક સ્વાગત છે 🙏</p>
+    </footer>
+
+  </div>
+
+  <button type="button" class="music-fab" id="music-fab" aria-label="Toggle music" >🎵
+    <audio id="bg-music" src="audio/Final Audio.mp3" loop></audio>
+  </button>
+
+  <script src="invitation.js"></script>
+  <script>
+      // Function to smoothly scroll down to the main content
+      function scrollToNextSection() {
+          document.getElementById('next-section').scrollIntoView({ 
+              behavior: 'smooth' 
+          });
+      }
+
+      // Function to play audio after the first user interaction
+      function startMusic() {
+          const audio = document.getElementById('bg-music');
+          audio.play().catch(error => {
+              console.log("Autoplay was prevented. Waiting for explicit user interaction.");
+          });
+          document.removeEventListener('click', startMusic);
+          document.removeEventListener('keydown', startMusic);
+      }
+
+      document.addEventListener('click', startMusic);
+      document.addEventListener('keydown', startMusic);
+  </script>
+</body>
+</html>
